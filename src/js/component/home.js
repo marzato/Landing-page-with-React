@@ -2,7 +2,7 @@ import React from "react";
 
 import Navbar from "./Navbar.js";
 import Jumbotron from "./Jumbotron.js";
-
+import Card from "./Card";
 //include images into your bundle
 //  import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -12,6 +12,7 @@ export function Home() {
 		<React.Fragment>
 			<Navbar />
 			<Jumbotron />
+			<Card />
 		</React.Fragment>
 	);
 }
