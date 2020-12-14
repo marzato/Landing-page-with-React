@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "./Navbar.js";
 import Jumbotron from "./Jumbotron.js";
 import Card from "./Card";
+import Footer from "./Footer.js";
 //include images into your bundle
 //  import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -13,6 +14,7 @@ export function Home() {
 			<Navbar />
 			<Jumbotron />
 			<Card />
+			<Footer />
 		</React.Fragment>
 	);
 }
